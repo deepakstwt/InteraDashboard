@@ -1,0 +1,16 @@
+version: '3.9'
+services:
+  dashboard:
+    build: .
+    container_name: vehicle_dashboard
+    ports:
+      - "8501:8501"
+    environment:
+      USE_LIVE_VAHAN: "0"
+      ENABLE_CACHING: "true"
+      CACHE_TTL: "3600"
+      DATABASE_URL: sqlite:///data/vehicle_registration.db
+    volumes:
+      - ./:/app
+      - ./data:/app/data
+    restart: unless-stopped
