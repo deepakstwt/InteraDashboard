@@ -5,7 +5,7 @@
 Data-driven Streamlit platform delivering actionable insights from Indian vehicle registration trends (states, manufacturers, categories) with growth, volatility, market share and export capabilities.
 
 <p align="center">
-  <img src="docs/images/dashboard_preview.png" alt="Dashboard Preview" width="850"/>
+  <img src="docs/images/dashboard_overview.png" alt="Dashboard Registration Overview Screenshot" width="900"/>
 </p>
 
 ## Table of Contents
@@ -146,6 +146,12 @@ No PII handled. Sample mode only. Live scraping mode (planned) should respect ta
 - Alerting (email / webhook)
 - NLP insight layer (natural language queries)
 
+### Next Steps
+- Create PAT with workflow scope (or gh auth login)
+- Restore CI workflow file and push
+- Visually verify light/dark mode widgets
+- Add demo media assets (video / additional screenshots)
+
 ## 17. Contributing
 Fork, branch, implement, add tests, ensure all pass, open PR. Adhere to modular separation and avoid embedding logic in the UI layer. Keep added dependencies minimal and documented.
 
@@ -164,4 +170,4 @@ MIT License. See LICENSE.
 
 ## Media (Optional)
 Add demo video link: TBD (place link here)
-Add screenshots in docs/images (dashboard_preview.png etc.)
+Add screenshots in docs/images (dashboard_overview.png etc.)
