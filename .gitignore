@@ -79,6 +79,7 @@ screenshots/
 *.png
 *.jpg
 *.jpeg
+!InteraDashboard.jpeg
 
 # Selenium
 chromedriver
